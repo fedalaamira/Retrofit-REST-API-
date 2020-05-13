@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="16dp"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Titre"
+        android:id="@+id/nom"
+        android:textColor="@color/colorPrimary"
+        ></TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nom"
+        android:id="@id/title">
+
+    </EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="poste"
+        android:id="@+id/desc"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@+id/title"
+        ></TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/desc"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/description">
+
+    </EditText>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/description"
+        android:padding="16dp"
+        android:id="@+id/ajouter"
+        android:background="@color/colorPrimary"
+        android:text="Ajouter"
+        android:layout_margin="8dp"
+        >
+
+    </Button>
+</RelativeLayout>
